@@ -1,17 +1,26 @@
-const str = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, corrupti. Odit consequatur quasi dolorem eum nulla quas, perferendis ab nobis, quae saepe animi distinctio molestiae atque adipisci neque aliquam!.'
+const str = 'ibrahim sharif safadi 1999'
+let spaceContainer = 0
 for (let i = 0; str[i]; i++) {
-    console.log(str[i]);  
+    if (str[i] ==  ' '){
+        spaceContainer++
+    }
 }
-let char = 'undefined'
-undefined // falsy
-NaN // falsy
-null // falsy
+    console.log(spaceContainer);  
 
-let sum = char + 5
+    
 
-console.log(sum);
-if (sum) {
-    console.log('truthy');
-} else {
-    console.log('falsy');
-}
+
+
+// let char = 'undefined'
+// undefined // falsy
+// NaN // falsy
+// null // falsy
+
+// let sum = char + 5
+
+// console.log(sum);
+// if (sum) {
+//     console.log('truthy');
+// } else {
+//     console.log('falsy');
+// }
